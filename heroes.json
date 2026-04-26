@@ -1,0 +1,14 @@
+{
+  "heroes": [
+    { "name": "Claude",  "role": "Marksman",  "icon": "hero-images/claude.jpg", "counters": ["Akai"], "counteredBy": "Selena", "tier": "S"},
+    { "name": "Miya",    "role": "Marksman",  "icon": "hero-images/miya.jpg", "counters": ["Layla"], "counteredBy": "Selena", "tier": "C"},
+    { "name": "Bruno",   "role": "Marksman",  "icon": "hero-images/bruno.jpg", "counters": ["Zilong"], "counteredBy": "Selena", "tier": "S"},
+    { "name": "Clint",   "role": "Marksman",  "icon": "hero-images/clint.jpg", "counters": ["Nana"], "counteredBy": "Selena", "tier": "C" },
+    { "name": "Layla",   "role": "Marksman",  "icon": "hero-images/layla.jpg", "counters": ["Yi Sun-Shin"], "counteredBy": "Selena/Saber", "tier": "C" },
+    { "name": "Balmond", "role": "Fighter",   "icon": "hero-images/balmond.jpg", "counters": ["Sun"], "counteredBy": "Alpha", "tier": "A"},
+    { "name": "Saber",   "role": "Assassin",  "icon": "hero-images/saber.jpg",   "counters": ["Marksman"], "counteredBy": "Belerick, Diggie", "tier": "A"},
+    { "name": "Alice", "role": "Tank/Mage",   "icon": "hero-images/alice.jpg", "counters": ["Sun"], "counteredBy": "Karrie", "tier": "S"},
+    { "name": "Nana", "role": "Mage",   "icon": "hero-images/nana.jpg", "counters": ["Zilong"], "counteredBy": "Harley", "tier": "B"},
+    { "name": "Tigreal", "role": "Tank",   "icon": "hero-images/tigreal.jpg", "counters": ["Estes"], "counteredBy": "Diggie", "tier": "A"}
+  ]
+} 
