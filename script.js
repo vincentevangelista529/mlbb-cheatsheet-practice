@@ -22,7 +22,7 @@ fetch('heroes.json')
         newDiv.className = "hero-box"
 
         newDiv.innerHTML = `
-          <img src="hero-images/${name}.jpg" alt="${name}">
+          <img src="hero-images/${name.toLowerCase()}.jpg" alt="${name}">
           <h2>${name}</h2>
           <p>${role}</p>
           `
@@ -35,7 +35,7 @@ fetch('heroes.json')
       
       detail.innerHTML = `
        <button id="close-btn" onclick="closeDetail()">X</button>
-       <img src="hero-images/${name}.jpg" alt="${name}">
+       <img src="hero-images/${name.toLowerCase()}.jpg" alt="${name}">
         <h2>${name}</h2>
         <p>${role}</p>
         <span class="tier-${tier}">Tier: ${tier} </span>
